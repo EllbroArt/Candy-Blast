@@ -7275,7 +7275,7 @@ self.C3_ExpressionFuncs = [
 		() => 659.001,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => and("Развиваю мышление, уже покорил уровень - ", (v0.GetValue() - 1));
+			return () => and("Развиваю мышление, уже покорил уровень - ", v0.GetValue());
 		},
 		() => "https://vk.com/app8056133_265383985",
 		() => "Play",
